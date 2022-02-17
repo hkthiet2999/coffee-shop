@@ -9,4 +9,10 @@ export class CoffeeEntity{
     @Column()
     name: string;
 
+    @Column()
+    price: string;
+
+    @Column()
+    description: string;
+
 }
